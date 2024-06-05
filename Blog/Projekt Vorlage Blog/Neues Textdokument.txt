@@ -1,0 +1,4 @@
+  <div class= "footerContainer">
+    <div class= "socialIcons"></div>
+    <a href= ""><i></i></i></a>
+    </div>

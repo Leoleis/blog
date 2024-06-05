@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beispiel für einen halbhohen Footer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Die volle Höhe des Viewports */
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1; /* Nimmt den verbleibenden Platz ein */
+            padding: 20px;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50px; /* Hier die gewünschte halbe Höhe einstellen */
+            background-color: #333; /* Hintergrundfarbe des Footers */
+            color: #fff; /* Textfarbe im Footer */
+            padding: 0 20px; /* Innenabstand links und rechts */
+            box-sizing: border-box; /* Berücksichtigt Padding in der Breite */
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <!-- Hier könnte dein Hauptinhalt stehen -->
+        <h1>Willkommen!</h1>
+        <p>Dies ist der Hauptinhalt deiner Webseite.</p>
+    </div>
+    <div class="footer">
+        <!-- Hier ist der Footer -->
+        <p>&copy; 2024 Mein Unternehmen</p>
+    </div>
+</body>
+</html>
